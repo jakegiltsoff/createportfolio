@@ -20,13 +20,13 @@
 			echo '</div>';
 		echo '</div>';
 		echo '<div class="row">';
-			echo '<div class="large-9 columns">';
+			echo '<div class="large-9 columns portfolio-info">';
 				echo '<h3>Information</h3>';
 				echo '<p>';
 				the_field('information');
 				echo '</p>';
 			echo '</div>';
-			echo '<div class="large-3 columns pt">';
+			echo '<div class="large-3 columns pt portfolio-info">';
 			$date = get_field('date');
 			$client = get_field('client');
 			$skills = get_field('skills');
