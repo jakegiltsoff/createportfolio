@@ -1,0 +1,161 @@
+@import "settings";
+@import "mixins";
+
+
+// Default Sizing and spacing
+// ------------------------------------------------------------
+
+h1 { 
+	@include adjust-font-size-to(32px);
+} 
+
+h2 { 
+	@include adjust-font-size-to(24px); 
+	margin: 0 0 rhythm(2, 24px) 0; 
+}
+
+h3 { 
+	@include adjust-font-size-to(20px); 
+	margin: 0; 
+}
+
+h4, h5, h6 { 
+	@include adjust-font-size-to(18px); 
+	margin: 0; 
+}
+
+p, pre, label { 
+	@include adjust-font-size-to(16px); 
+	margin: 0 0 rhythm(2, 16px) 0;
+}
+
+ol, ul {
+	@include adjust-font-size-to(16px);
+	margin: 0 0 rhythm(4, 16px) 0;
+}
+
+li {
+	line-height: auto;
+}
+
+
+// Core typography
+// ------------------------------------------------------------
+
+ul { @include unordered; }
+ol { @include ordered; }
+em, i, q { font-style: italic; }
+
+blockquote {
+	padding-left: em-font(16px);
+	border-left: em-font(5px) solid grey;
+	line-height: normal;
+	margin: 0;
+	p {
+		font-style: italic;
+		margin: 0;
+		@include adjust-font-size-to(20px);
+		margin: rhythm(3, 20px) 0 rhythm(3, 20px) 0;
+	}
+}
+
+
+// Typefaces + base styles
+// ------------------------------------------------------------
+
+$sansFontFamily: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sansFontWeight: 400;
+$sansFontStyle: normal;
+
+$sansBoldFontFamily: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sansBoldFontWeight: 600;
+$sansBoldFontStyle: normal;
+
+$serifFontFamily: 'Lora', Georgia, serif;
+$serifFontWeight: 400;
+$serifFontStyle: normal;
+
+$serifBoldFontFamily: 'Lora', Georgia, serif;
+$serifBoldFontWeight: 700;
+$serifBoldFontStyle: normal;
+
+.hero-container {
+	h2 {
+		color: $offwhite;
+		text-align: center;
+		@include adjust-font-size-to(24px);
+		@include adjust-leading-to(3);
+		a {
+			color: $offwhite;
+			&:focus, &:hover {
+				color: $offwhite;
+			}
+		}
+	}
+}
+
+.warning {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: darken($alert,15%) !important;
+	@include adjust-font-size-to(14px);
+	padding: 5px 5px 5px 25px; 
+	border-radius: 4px;
+	border: 2px solid darken($alert,10%);
+	background: lighten($alert,35%);
+	text-align: center;
+}
+
+
+// Sans-serif
+// ------------------------------------------------------------
+
+body.sans-serif {
+	font-family: $sansFontFamily;
+	font-weight: $sansFontWeight;
+	font-style: $sansFontStyle; 
+	h1, h2, h3, h4, h5, h6 {
+		font-family: $sansBoldFontFamily;
+		font-weight: $sansBoldFontWeight;
+		font-style: $sansBoldFontStyle;
+	}
+	strong, b 	{ 
+		font-family: $sansBoldFontFamily;
+		font-weight: $sansBoldFontWeight;
+		font-style: $sansBoldFontStyle;
+	}
+	nav {
+		li {
+			font-family: $sansBoldFontFamily;
+			font-weight: $sansBoldFontWeight;
+			font-style: $sansBoldFontStyle; 
+		}
+	}
+}
+
+// Serif
+// ------------------------------------------------------------
+
+body.serif {
+	font-family: $serifFontFamily;
+	font-weight: $serifFontWeight;
+	font-style: $serifFontStyle;
+	h1, h2, h3, h4, h5, h6 {
+		font-family: $serifBoldFontFamily;
+		font-weight: $serifBoldFontWeight;
+		font-style: $serifBoldFontStyle;
+	}
+	strong, b 	{ 
+		font-family: $serifBoldFontFamily;
+		font-weight: $serifBoldFontWeight;
+		font-style: $serifBoldFontStyle;
+	}	
+	nav {
+		li {
+			font-family: $serifBoldFontFamily;
+			font-weight: $serifBoldFontWeight;
+			font-style: $serifBoldFontStyle;
+		}
+	}
+}

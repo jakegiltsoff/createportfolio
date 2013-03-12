@@ -1,0 +1,95 @@
+// Colours
+// ------------------------------------------------------------
+
+$primary: #303030;
+$secondary: #222;
+$tertiary: #aaa;
+
+// Assign colours to variable roles
+$base-color: $primary;
+$heading-color: $secondary;
+$secondary-heading-color: $tertiary;
+
+// Links
+$action: $primary;
+$action-respond: $secondary;
+$secondary-action: $action-respond;
+$secondary-action-respond: $action;
+
+// Alerts, errors and UI interface
+$alert: red;
+
+// Skin 1 - Hipster
+$offwhite: #f9f9f9;
+$hero: #03A678;
+$main: #E9EDEB;
+$details: #F8FFFD;
+$highlight: #F44647;
+$footer: #00707F;
+
+// Skin 2 - Monotone
+$hero2: #656C7D;
+$highlight2: #555A69;
+$footer2: #40444F;
+
+// Skin 3 - Fruit Salad
+$hero3: #ee8f31;
+$footer3: #dc718d;
+
+// Skin 4 - Atlantis
+$hero4: #047C8C;
+$highlight4: #1891BA;
+$footer4: #0B2F42;
+
+
+// Fonts, measure, leading and typefaces
+// ------------------------------------------------------------
+
+// Fonts size and line height defaults for our calculations
+$base-font-size: 16px;
+$base-line-height: 8px;
+$round-to-nearest-half-line: false;
+
+
+// Functions for px to em conversions
+// ------------------------------------------------------------
+
+@function emify($target, $context) {
+	@if $target == 0 { @return 0 }
+	@return $target / $context + 0em;
+}
+
+// Make px to ems using base-font-size
+// echo as: font-size: em-font(#px);
+@function em-font($target, $context: $base-font-size) {
+	@return emify($target, $context);
+}
+
+// Make px to ems using base-line-height
+// echo as: font-size: em-base(#px);
+@function em-base($target, $context: $base-line-height) {
+	@return emify($target, $context);
+}
+
+
+// Grid variables
+// -------------------------------------------------------
+
+$small-screen: em-font(750px);
+$medium-screen: em-font(1280px);
+$large-screen: em-font(1440px);
+
+$default-float: left;
+$default-opposite: right;
+
+$small: "only screen and (min-width:"#{$small-screen}")";
+$medium: "only screen and (min-width:"#{$medium-screen}")";
+$large: "only screen and (min-width:"#{$large-screen}")";
+
+$row-width: em-font(930px);
+$column-gutter: em-font(30px);
+$total-columns: 12;
+
+@function gridCalc($colNumber, $totalColumns) {
+	@return percentage(($colNumber / $totalColumns));
+}
