@@ -111,7 +111,7 @@ $serifBoldFontStyle: normal;
 // Sans-serif
 // ------------------------------------------------------------
 
-body.sans-serif {
+body, body.sans-serif {
 	font-family: $sansFontFamily;
 	font-weight: $sansFontWeight;
 	font-style: $sansFontStyle; 
