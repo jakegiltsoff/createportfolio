@@ -29,7 +29,7 @@
 			echo '<div class="hero-container">';
 				echo '<div class="row">';
 					echo '<div class="large-12 columns">';
-						echo '<p class="warning">Please update your settings from the Home Page Options page on the dashboard.</p>';
+						echo '<p class="warning">Please update your settings from the About Page Options page on the dashboard.</p>';
 					echo '</div>';
 				echo '</div>';
 			echo '</div>';
@@ -52,7 +52,7 @@
 					if (!empty($about)) {
 						echo '<p>'.$about.'</p>';
 					} else {
-						echo '<p class="warning">Please update your settings from the Home Page Options page on the dashboard.</p>';
+						echo '<p class="warning">Please update your settings from the About Page Options page on the dashboard.</p>';
 					}
 				?>
 			</div>
@@ -129,7 +129,7 @@
 							}
 						echo '</div>';
 					} else {
-						echo '<p class="warning">Please update your settings from the Home Page Options page on the dashboard.</p>';
+						echo '<p class="warning">Please update your settings from the About Page Options page on the dashboard.</p>';
 					}
 				?>
 			</div>
