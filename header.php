@@ -13,7 +13,7 @@
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/html5shiv.js"></script>
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/respond.min.js"></script>
 <![endif]-->
-<?php $typefaces = get_field('typography', 'options'); if ($typefaces == 'Sans-serif') { echo "<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>"; } elseif ($typefaces == 'Serif') { echo "<link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic' rel='stylesheet' type='text/css'>";} ?>
+<?php $typefaces = get_field('typography', 'options'); if ($typefaces == 'Sans-serif') { echo "<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>"; } elseif ($typefaces == 'Serif') { echo "<link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic' rel='stylesheet' type='text/css'>";} else { echo "<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>"; } ?>
 </head>
 
 <body <?php body_class(); ?>>
