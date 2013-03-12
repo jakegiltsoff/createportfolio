@@ -638,6 +638,9 @@ nav .menu li.current-menu-item a, nav .menu li.current_page_parent a {
 nav .menu li.current-menu-item a:hover, nav .menu li.current-menu-item a:active, nav .menu li.current-menu-item a:focus, nav .menu li.current_page_parent a:hover, nav .menu li.current_page_parent a:active, nav .menu li.current_page_parent a:focus {
   color: #7d7d7d;
 }
+nav .menu ul {
+  margin-bottom: 0;
+}
 nav .menu a {
   display: block;
   position: relative;
