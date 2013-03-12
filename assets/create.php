@@ -116,7 +116,7 @@ function create_main_nav() {
 function create_main_nav_fallback() {
 	wp_page_menu(array(
 		'show_home' => true,
-		'menu_class' => 'menu nav top-nav',
+		'menu_class' => 'menu',
 		'include' => '',
 		'exclude' => '',
 		'echo' => true,
