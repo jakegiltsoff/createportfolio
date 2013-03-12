@@ -800,32 +800,6 @@ register_field_group(array (
 		),
 		4 => 
 		array (
-			'key' => 'field_30',
-			'label' => 'Google analytics',
-			'name' => 'google_analytics',
-			'type' => 'textarea',
-			'order_no' => 5,
-			'instructions' => 'Add in custom google analytics code here.',
-			'required' => 0,
-			'conditional_logic' => 
-			array (
-				'status' => 0,
-				'rules' => 
-				array (
-					0 => 
-					array (
-						'field' => 'field_3',
-						'operator' => '==',
-						'value' => 'Light',
-					),
-				),
-				'allorany' => 'all',
-			),
-			'default_value' => '',
-			'formatting' => 'html',
-		),
-		5 => 
-		array (
 			'key' => 'field_49',
 			'label' => 'Social Links',
 			'name' => '',
@@ -848,7 +822,7 @@ register_field_group(array (
 				'allorany' => 'all',
 			),
 		),
-		6 => 
+		5 => 
 		array (
 			'key' => 'field_50',
 			'label' => 'Facebook link',
@@ -874,7 +848,7 @@ register_field_group(array (
 			'default_value' => '',
 			'formatting' => 'html',
 		),
-		7 => 
+		6 => 
 		array (
 			'key' => 'field_51',
 			'label' => 'Twitter link',
@@ -900,7 +874,7 @@ register_field_group(array (
 			'default_value' => '',
 			'formatting' => 'html',
 		),
-		8 => 
+		7 => 
 		array (
 			'key' => 'field_52',
 			'label' => 'Google+ link',
@@ -926,7 +900,7 @@ register_field_group(array (
 			'default_value' => '',
 			'formatting' => 'html',
 		),
-		9 => 
+		8 => 
 		array (
 			'key' => 'field_55',
 			'label' => 'LinkedIn link',
@@ -952,7 +926,7 @@ register_field_group(array (
 			'default_value' => '',
 			'formatting' => 'html',
 		),
-		10 => 
+		9 => 
 		array (
 			'key' => 'field_53',
 			'label' => 'Flickr link',
@@ -978,7 +952,7 @@ register_field_group(array (
 			'default_value' => '',
 			'formatting' => 'html',
 		),
-		11 => 
+		10 => 
 		array (
 			'key' => 'field_54',
 			'label' => 'Dribbble link',
@@ -1004,7 +978,7 @@ register_field_group(array (
 			'default_value' => '',
 			'formatting' => 'html',
 		),
-		12 => 
+		11 => 
 		array (
 			'key' => 'field_56',
 			'label' => 'Tumblr link',
@@ -1030,7 +1004,7 @@ register_field_group(array (
 			'default_value' => '',
 			'formatting' => 'html',
 		),
-		13 => 
+		12 => 
 		array (
 			'key' => 'field_57',
 			'label' => 'Vimeo link',
@@ -1056,7 +1030,7 @@ register_field_group(array (
 			'default_value' => '',
 			'formatting' => 'html',
 		),
-		14 => 
+		13 => 
 		array (
 			'key' => 'field_58',
 			'label' => 'DeviantArt link',
@@ -1082,7 +1056,7 @@ register_field_group(array (
 			'default_value' => '',
 			'formatting' => 'html',
 		),
-		15 => 
+		14 => 
 		array (
 			'key' => 'field_59',
 			'label' => 'Zerply link',
@@ -1108,7 +1082,7 @@ register_field_group(array (
 			'default_value' => '',
 			'formatting' => 'html',
 		),
-		16 => 
+		15 => 
 		array (
 			'key' => 'field_60',
 			'label' => 'Instagram link',
