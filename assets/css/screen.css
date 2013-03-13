@@ -424,7 +424,6 @@ footer a:hover, footer a:focus, footer a:active {
 .button:hover, .button:focus {
   color: #f9f9f9;
   background: #f44647;
-  background: #f44647;
 }
 .button.email {
   padding-left: 44px;
@@ -728,7 +727,6 @@ body.monotone .button {
 }
 body.monotone .button:hover, body.monotone .button:focus {
   background: #555a69;
-  background: #555a69;
 }
 
 /* ::Skin 3 - Fruit Salad */
@@ -765,7 +763,6 @@ body.atlantis .button {
   background: rgba(24, 145, 186, 0.8);
 }
 body.atlantis .button:hover, body.atlantis .button:focus {
-  background: #1891ba;
   background: #1891ba;
 }
 

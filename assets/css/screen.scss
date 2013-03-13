@@ -154,7 +154,6 @@ footer {
 	&:hover, &:focus {
 		color: $offwhite;
 		background: $highlight; 
-		background: rgba($highlight,1);
 	}
 	&.email {
 		padding-left: 44px;
@@ -430,7 +429,6 @@ body.monotone {
 		background: rgba($highlight2,0.8);
 		&:hover, &:focus {
 			background: $highlight2; 
-			background: rgba($highlight2,1);
 		}
 	}
 }
@@ -472,7 +470,6 @@ body.atlantis {
 		background: rgba($highlight4,0.8);
 		&:hover, &:focus {
 			background: $highlight4; 
-			background: rgba($highlight4,1);
 		}
 	}
 }
