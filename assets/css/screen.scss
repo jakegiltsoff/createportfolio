@@ -11,8 +11,9 @@
 // ::Base / Skin 1 styles
 // ::Nav styles
 // ::Grid styles 
-// ::Skin 2 - Light Mono
-// ::Skin 3 - Dark
+// ::Skin 2 - Monotone
+// ::Skin 3 - Fruit Salad
+// ::Skin 4 - Atlantis
 // ::Iconfont
 // ::Media queries 
 
@@ -330,7 +331,7 @@ nav {
 	.menu {
 		list-style: none;
 		line-height: 1.0;
-		margin: rhythm(2, 16px) 0 0 0;  
+		margin: rhythm(2, 16px) 0 0 0;
 		li {
 			@include inline-block;
 			position: relative;
@@ -726,5 +727,5 @@ body.atlantis {
 
 // IOS specifics 
 @media screen and (max-width: 769px) {
-	-webkit-text-size-adjust:none;
+	-webkit-text-size-adjust: none;
 }
