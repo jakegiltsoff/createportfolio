@@ -62,7 +62,7 @@ a {
 	@include force-wrap; // force text links to wrap
 	@include transition-colour;
 	&:hover, &:focus, &:active {
-		color: $action-respond
+		color: $action-respond;
 	}
 }
 
