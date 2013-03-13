@@ -147,7 +147,7 @@ footer {
 	color: $offwhite;
 	@include adjust-font-size-to(16px);
 	border-radius: 4px;
-	background: lighen($highlight,10%);
+	background: lighten($highlight,10%);
 	background: rgba($highlight,0.8);
 	padding: 10px 20px 10px 20px; 
 	-webkit-font-smoothing: antialiased;
