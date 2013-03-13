@@ -416,12 +416,14 @@ footer a:hover, footer a:focus, footer a:active {
   font-size: 1em;
   line-height: 1.5em;
   border-radius: 4px;
+  background: lighen(#f44647, 10%);
   background: rgba(244, 70, 71, 0.8);
   padding: 10px 20px 10px 20px;
   -webkit-font-smoothing: antialiased;
 }
 .button:hover, .button:focus {
   color: #f9f9f9;
+  background: #f44647;
   background: #f44647;
 }
 .button.email {
@@ -721,9 +723,11 @@ body.monotone footer {
   background: #40444f;
 }
 body.monotone .button {
+  background: #6c7285;
   background: rgba(85, 90, 105, 0.8);
 }
 body.monotone .button:hover, body.monotone .button:focus {
+  background: #555a69;
   background: #555a69;
 }
 
@@ -757,9 +761,11 @@ body.atlantis footer {
   background: #0b2f42;
 }
 body.atlantis .button {
+  background: #22b2e3;
   background: rgba(24, 145, 186, 0.8);
 }
 body.atlantis .button:hover, body.atlantis .button:focus {
+  background: #1891ba;
   background: #1891ba;
 }
 

@@ -146,11 +146,13 @@ footer {
 	color: $offwhite;
 	@include adjust-font-size-to(16px);
 	border-radius: 4px;
+	background: lighen($highlight,10%);
 	background: rgba($highlight,0.8);
 	padding: 10px 20px 10px 20px; 
 	-webkit-font-smoothing: antialiased;
 	&:hover, &:focus {
 		color: $offwhite;
+		background: $highlight; 
 		background: rgba($highlight,1);
 	}
 	&.email {
@@ -423,8 +425,10 @@ body.monotone {
 		background: $footer2;
 	}
 	.button {
+		background: lighten($highlight2,10%);
 		background: rgba($highlight2,0.8);
 		&:hover, &:focus {
+			background: $highlight2; 
 			background: rgba($highlight2,1);
 		}
 	}
@@ -463,8 +467,10 @@ body.atlantis {
 		background: $footer4;
 	}
 	.button {
+		background: lighten($highlight4,10%);
 		background: rgba($highlight4,0.8);
 		&:hover, &:focus {
+			background: $highlight4; 
 			background: rgba($highlight4,1);
 		}
 	}
