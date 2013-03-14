@@ -7,14 +7,6 @@
 		</div>
 	</footer>
 <?php wp_footer(); ?>
-<?php 
-	$google_analytics = get_field('google_analytics', 'options');
-	if (!empty($google_analytics)) {
-		echo '<script>';
-			echo $google_analytics;
-		echo '</script>';
-	}
-?>
 </body>
 
 </html>
