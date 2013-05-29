@@ -1468,13 +1468,13 @@ register_field_group(array (
 // ------------------------------------------------------------
 
 function next_link_add_class($str_a){
-  $str_a = str_replace('href=', 'class="next-post" href=', $str_a);
+  $str_a = str_replace('href=', 'class="previous-post" href=', $str_a);
   return $str_a;
 }
 add_filter('next_post_link', 'next_link_add_class');
 
 function previous_link_add_class($str_b){
-	$str_b = str_replace('href=', 'class="previous-post" href=', $str_b);
+	$str_b = str_replace('href=', 'class="next-post" href=', $str_b);
 	return $str_b;
 }
 add_filter('previous_post_link', 'previous_link_add_class');

@@ -108,8 +108,8 @@
 		echo '<div class="row">';
 			echo '<div class="large-12 columns">';
 				echo '<div class="portfolio-nav-links">';
-					previous_post_link('%link', 'Previous');
-					next_post_link('%link', 'Next');
+					previous_post_link('%link', 'Next');
+					next_post_link('%link', 'Previous');
 				echo '</div>';
 			echo '</div>';
 		echo '</div>';

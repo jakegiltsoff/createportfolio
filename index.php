@@ -28,9 +28,9 @@
 				<?php previous_posts_link('Newer', 0); ?>
 				<?php else : ?>
 				<article id="post-not-found" class="hentry clearfix">
-					<h2><?php _e("No posts available", "createtheme"); ?></h2>
+					<h2><?php _e("Nothing to see here", "createtheme"); ?></h2>
 					<section class="entry-content">
-						<p><?php _e("It seems theres not currently any posts available.", "createtheme"); ?></p>
+						<p><?php _e("I haven&rsquo;t written any blog posts yet. Check back soon.", "createtheme"); ?></p>
 					</section>
 				</article>
 				<?php endif; ?>
