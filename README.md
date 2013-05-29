@@ -10,9 +10,9 @@ Create Portfolio aims to get you up and running in hours rather than days – wi
 
 ## Overview
 
-[Create Portfolio](http://createportfol.io) is a free responsive Wordpress theme aimed at creative (Art, Design, Illustration, Photography, Architecture etc) student's to get a portfolio website as cheap and easily as possible.
+[Create Portfolio](http://createportfol.io) is a guide that takes you through the process of getting a portfolio website up on the internet. It covers buying a domain name, setting up hosting, installing Wordpress and the uploading the Create Portfolio theme. It then moves on to how to add in and maintain all your content.
 
-It's accompanied with a guide that takes you through the process of buying a domain name, to setting up hosting, installing Wordpress and the Create Portfolio theme. It then moves on to how to add in all your content and customise the look.
+The accompanying WordPress theme is free, responsive and customisable. It's aimed at Art, Design, Illustration, Photography and Architecture students to get a portfolio website as cheap and easily as possible. A portfolio website can be an invaluable tool in getting a job – so here's your reason to not have one.
 
 
 ---
