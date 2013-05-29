@@ -42,7 +42,9 @@
 					$profileimg = get_field('picture_of_you', 'options');
 					$size = "create-profile-600";
 					$image = wp_get_attachment_image_src( $profileimg, $size );
-					echo '<img class="profile-image" src="'.$image[0].'">';
+					if (!empty($image)) {
+						echo '<img class="profile-image" src="'.$image[0].'">';
+					}
 				?>
 			</div>
 			<div class="large-9 columns pb">
