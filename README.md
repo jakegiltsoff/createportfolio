@@ -1,9 +1,8 @@
 # Create Portfolio
 
-### Creative student soon to graduate? 
 ### Need a portfolio website but don't know where to start?
 
-Create Portfolio aims to get you up and running in hours rather than days – without touching a single bit of code.
+Create Portfolio will help you to get up and running in hours rather than days – without touching a single bit of code.
 
 
 ---
