@@ -1211,7 +1211,7 @@ register_field_group(array (
 				'allorany' => 'all',
 			),
 			'default_value' => '',
-			'formatting' => 'br',
+			'formatting' => 'html',
 		),
 		3 => 
 		array (
